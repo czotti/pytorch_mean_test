@@ -47,4 +47,15 @@ Features (features[0].mean(dim=-1).numpy()[0] =
 Features (features[0, 0].mean(dim=-1).numpy() =
  0.4540286958217621
 
+Test mean GPU
+
+Features shape: torch.Size([5, 15, 64000])
+Features (features[0].mean(dim=-1).numpy() =
+ [0.45403126 0.08670415 0.028464   0.02786238 0.02710164 0.02582996
+ 0.02611523 0.02516851 0.02441121 0.02369288 0.02208564 0.02194765
+ 0.02004341 0.0374385  0.14910367]
+Features (features[0].mean(dim=-1).numpy()[0] =
+ 0.4540312588214874
+Features (features[0, 0].mean(dim=-1).numpy() =
+ 0.4540312588214874
 ```
